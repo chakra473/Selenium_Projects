@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-02T14:21:19 IST" name="Suite1" finished-at="2023-09-02T14:21:19 IST" duration-ms="397">
+    <groups>
+    </groups>
+    <test started-at="2023-09-02T14:21:19 IST" name="Test Case1" finished-at="2023-09-02T14:21:19 IST" duration-ms="397">
+      <class name="testNG.FaceBookLogin">
+        <test-method is-config="true" signature="openWebBrowser()[pri:0, instance:testNG.FaceBookLogin@7b227d8d]" started-at="2023-09-02T14:21:14 IST" name="openWebBrowser" finished-at="2023-09-02T14:21:19 IST" duration-ms="4839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebBrowser -->
+        <test-method signature="checkTitle()[pri:0, instance:testNG.FaceBookLogin@7b227d8d]" started-at="2023-09-02T14:21:19 IST" name="checkTitle" finished-at="2023-09-02T14:21:19 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testNG.FaceBookLogin@7b227d8d]" started-at="2023-09-02T14:21:19 IST" name="verifyLogin" finished-at="2023-09-02T14:21:19 IST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6385907201]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jayen@240403]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- testNG.FaceBookLogin -->
+      <class name="testNG.OpenBrowser">
+        <test-method signature="openGoogle()[pri:0, instance:testNG.OpenBrowser@29176cc1]" started-at="2023-09-02T14:21:19 IST" name="openGoogle" finished-at="2023-09-02T14:21:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+      </class> <!-- testNG.OpenBrowser -->
+    </test> <!-- Test Case1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
